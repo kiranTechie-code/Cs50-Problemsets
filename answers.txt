@@ -1,0 +1,37 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+
+In Bubble Sort, the best-case time is significantly less than the worst-case time. For instance:
+
+Worst case (Reversed5000.txt): 0.076 seconds
+Best case (Sorted5000.txt): 0.027 seconds
+
+Here, the worst-case time is approximately twice the best-case time.
+
+
+sort2 uses: Merge Sort
+
+How do you know?:
+
+reversed50000.txt -> 0.807s
+Comparing to other sorting Techniques this was considered as fastest for the huge number, so this uses merge sort
+
+sort3 uses: Selection sort
+
+How do you know?:
+
+reversed5000.txt -> 0.051s
+sorted5000.txt -> 0.053s
+
+For reversed5000.txt, the time taken was 0.051 seconds, and for Sorted5000.txt, it was 0.053 seconds.
+
+This behavior aligns with Selection Sort, as both the worst-case and best-case times are expected to be equal or nearly equal in this sorting technique.
+
+
+
+
+
+
+
+
